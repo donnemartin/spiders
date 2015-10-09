@@ -81,6 +81,7 @@ class AwsDocsSpider(Spider):
     resource_options = [
         '--instance-ids',
         '--bucket',
+        '--cluster-states',
     ]
     base_url = 'http://docs.aws.amazon.com/cli/latest/reference/'
     index_url = '/index.html'
