@@ -38,6 +38,7 @@ class AwsDocsSpider(Spider):
         'elastictranscoder',
         'elb',
         'emr',
+        'es',
         'glacier',
         'iam',
         'importexport',
@@ -81,14 +82,6 @@ class AwsDocsSpider(Spider):
         '--instance-ids',
         '--bucket',
     ]
-    ec2_states = [
-        'pending',
-        'running',
-        'shutting-down',
-        'terminated',
-        'stopping',
-        'stopped',
-    ]
     base_url = 'http://docs.aws.amazon.com/cli/latest/reference/'
     index_url = '/index.html'
     start_urls = []
@@ -118,7 +111,6 @@ class AwsDocsSpider(Spider):
             scraped_commands = sorted(list(set(scraped_commands)))
             global_options = sorted(list(set(self.global_options)))
             resource_options = sorted(list(set(self.resource_options)))
-            ec2_states = sorted(list(set(self.ec2_states)))
             f.write('[commands]: ' + \
                 str(len(commands)) + '\n')
             for item in commands:
@@ -134,8 +126,4 @@ class AwsDocsSpider(Spider):
             f.write('[resource_options]: ' + \
                 str(len(resource_options)) + '\n')
             for item in resource_options:
-                f.write(item + '\n')
-            f.write('[ec2_states]: ' + \
-                str(len(ec2_states)) + '\n')
-            for item in ec2_states:
                 f.write(item + '\n')
