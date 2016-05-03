@@ -67,7 +67,7 @@ support
 swf
 waf
 workspaces
-[sub_commands]: 1831
+[sub_commands]: 1832
 abort-environment-update
 abort-multipart-upload
 abort-vault-lock
@@ -1456,6 +1456,7 @@ modify-subnet-attribute
 modify-volume-attribute
 modify-vpc-attribute
 modify-vpc-endpoint
+modify-vpc-peering-connection-options
 monitor-instances
 move-address-to-vpc
 mv
