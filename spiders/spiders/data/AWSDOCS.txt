@@ -67,7 +67,7 @@ support
 swf
 waf
 workspaces
-[sub_commands]: 1844
+[sub_commands]: 1846
 abort-environment-update
 abort-multipart-upload
 abort-vault-lock
@@ -1479,6 +1479,7 @@ poll-for-third-party-jobs
 predict
 preview-agents
 promote-read-replica
+promote-read-replica-db-cluster
 publish
 publish-version
 purchase-offering
@@ -1691,6 +1692,7 @@ set-desired-capacity
 set-endpoint-attributes
 set-identity-dkim-enabled
 set-identity-feedback-forwarding-enabled
+set-identity-headers-in-notifications-enabled
 set-identity-mail-from-domain
 set-identity-notification-topic
 set-identity-pool-configuration
