@@ -71,7 +71,7 @@ support
 swf
 waf
 workspaces
-[sub_commands]: 1924
+[sub_commands]: 1926
 abort-environment-update
 abort-multipart-upload
 abort-vault-lock
@@ -510,6 +510,7 @@ delete-elasticsearch-domain
 delete-endpoint
 delete-environment-configuration
 delete-evaluation
+delete-evaluation-results
 delete-event-source-mapping
 delete-event-subscription
 delete-expression
@@ -1800,6 +1801,7 @@ socks
 split-shard
 ssh
 start-assessment-run
+start-config-rules-evaluation
 start-configuration-recorder
 start-data-collection-by-agent-ids
 start-gateway
