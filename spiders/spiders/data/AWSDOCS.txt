@@ -71,7 +71,7 @@ support
 swf
 waf
 workspaces
-[sub_commands]: 2368
+[sub_commands]: 2369
 abort-environment-update
 abort-multipart-upload
 abort-vault-lock
@@ -2400,6 +2400,7 @@ update-subscription
 update-table
 update-tag-option
 update-tags-for-domain
+update-termination-protection
 update-thing
 update-thing-shadow
 update-time-to-live
