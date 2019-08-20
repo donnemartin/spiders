@@ -133,7 +133,7 @@ workdocs
 workmail
 workspaces
 xray
-[sub_commands]: 4355
+[sub_commands]: 4356
 abort-document-version-upload
 abort-environment-update
 abort-multipart-upload
@@ -3415,6 +3415,7 @@ modify-replication-group-shard-configuration
 modify-replication-instance
 modify-replication-subnet-group
 modify-replication-task
+modify-report-definition
 modify-reserved-instances
 modify-rule
 modify-snapshot-attribute
