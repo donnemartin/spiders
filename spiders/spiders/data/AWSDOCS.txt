@@ -133,7 +133,7 @@ workdocs
 workmail
 workspaces
 xray
-[sub_commands]: 4874
+[sub_commands]: 4885
 abort-document-version-upload
 abort-environment-update
 abort-multipart-upload
@@ -727,6 +727,7 @@ create-logger-definition-version
 create-login-profile
 create-luna-client
 create-maintenance-window
+create-managed-prefix-list
 create-matchmaking-configuration
 create-matchmaking-rule-set
 create-medical-vocabulary
@@ -1224,6 +1225,7 @@ delete-hosted-zone
 delete-hsm
 delete-hsm-client-certificate
 delete-hsm-configuration
+delete-human-task-ui
 delete-identities
 delete-identity
 delete-identity-policy
@@ -1286,6 +1288,7 @@ delete-login-profile
 delete-luna-client
 delete-mailbox-permissions
 delete-maintenance-window
+delete-managed-prefix-list
 delete-matchmaking-configuration
 delete-matchmaking-rule-set
 delete-medical-transcription-job
@@ -1653,6 +1656,7 @@ describe-availability-options
 describe-availability-zones
 describe-available-patches
 describe-backup
+describe-backup-policy
 describe-backups
 describe-bandwidth-rate-limit
 describe-batch-predictions
@@ -1976,6 +1980,7 @@ describe-maintenance-window-targets
 describe-maintenance-window-tasks
 describe-maintenance-windows
 describe-maintenance-windows-for-target
+describe-managed-prefix-lists
 describe-matchmaking
 describe-matchmaking-configurations
 describe-matchmaking-rule-sets
@@ -2863,6 +2868,8 @@ get-maintenance-window-execution
 get-maintenance-window-execution-task
 get-maintenance-window-execution-task-invocation
 get-maintenance-window-task
+get-managed-prefix-list-associations
+get-managed-prefix-list-entries
 get-managed-scaling-policy
 get-mapping
 get-master-account
@@ -2996,6 +3003,7 @@ get-resource
 get-resource-config-history
 get-resource-definition
 get-resource-definition-version
+get-resource-policies
 get-resource-policy
 get-resources
 get-rest-api
@@ -3802,6 +3810,7 @@ modify-launch-template
 modify-listener
 modify-load-balancer-attributes
 modify-luna-client
+modify-managed-prefix-list
 modify-mount-target-security-groups
 modify-network-interface-attribute
 modify-replication-group
@@ -3903,6 +3912,7 @@ put-application-policy
 put-approval-result
 put-attributes
 put-auto-scaling-policy
+put-backup-policy
 put-block-public-access-configuration
 put-bot
 put-bot-alias
@@ -4210,6 +4220,7 @@ restore-db-instance-to-point-in-time
 restore-from-cluster-snapshot
 restore-from-hbase-backup
 restore-from-snapshot
+restore-managed-prefix-list-version
 restore-object
 restore-server
 restore-table-from-backup
