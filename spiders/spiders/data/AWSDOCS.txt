@@ -133,7 +133,7 @@ workdocs
 workmail
 workspaces
 xray
-[sub_commands]: 4922
+[sub_commands]: 4928
 abort-document-version-upload
 abort-environment-update
 abort-multipart-upload
@@ -2789,10 +2789,12 @@ get-graphql-api
 get-group
 get-group-certificate-authority
 get-group-certificate-configuration
+get-group-configuration
 get-group-policy
 get-group-query
 get-group-version
 get-groups
+get-groups-for-capacity-reservation
 get-health-check
 get-health-check-count
 get-health-check-last-failure-reason
@@ -2900,6 +2902,7 @@ get-media
 get-media-for-fragment-list
 get-medical-transcription-job
 get-medical-vocabulary
+get-member-detectors
 get-members
 get-merge-commit
 get-merge-conflicts
@@ -3192,6 +3195,7 @@ get-workflow-runs
 get-xss-match-set
 global-sign-out
 grant-access
+group-resources
 head-bucket
 head-object
 import-api-keys
@@ -4625,6 +4629,7 @@ unassign-volume
 undeprecate-activity-type
 undeprecate-domain
 undeprecate-workflow-type
+ungroup-resources
 uninstall
 unlink-developer-identity
 unlink-identity
@@ -4848,6 +4853,7 @@ update-maintenance-window-task
 update-managed-instance-role
 update-matchmaking-configuration
 update-medical-vocabulary
+update-member-detectors
 update-method
 update-method-response
 update-mitigation-action
