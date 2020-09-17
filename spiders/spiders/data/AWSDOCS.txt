@@ -133,7 +133,7 @@ workdocs
 workmail
 workspaces
 xray
-[sub_commands]: 4988
+[sub_commands]: 4990
 abort-document-version-upload
 abort-environment-update
 abort-multipart-upload
@@ -3166,6 +3166,7 @@ get-test
 get-test-grid-project
 get-test-grid-session
 get-text-detection
+get-thing-runtime-configuration
 get-thing-shadow
 get-third-party-job-details
 get-threat-intel-set
@@ -5052,6 +5053,7 @@ update-test-grid-project
 update-thing
 update-thing-group
 update-thing-groups-for-thing
+update-thing-runtime-configuration
 update-thing-shadow
 update-threat-intel-set
 update-time-to-live
