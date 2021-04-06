@@ -133,7 +133,7 @@ workdocs
 workmail
 workspaces
 xray
-[sub_commands]: 5378
+[sub_commands]: 5379
 abort-document-version-upload
 abort-environment-update
 abort-multipart-upload
@@ -3011,6 +3011,7 @@ get-file-upload-url
 get-filter
 get-findings
 get-findings-statistics
+get-flow-logs-integration-template
 get-folder
 get-folder-path
 get-function
